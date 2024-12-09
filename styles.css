@@ -1,0 +1,48 @@
+
+        body {
+            background-image: url('img/5555.jpg'); /* แทนที่ 'background.jpg' ด้วยชื่อไฟล์รูปภาพของคุณ */
+            background-size: 170%; /* ทำให้ภาพเต็มพื้นที่ */
+            background-position: center; /* ทำให้ภาพอยู่กลาง */
+            background-repeat: no-repeat; /* ห้ามให้ภาพซ้ำ */
+            font-family: 'Taviraj', serif; /* กำหนดฟอนต์ */
+            color: rgb(255, 255, 255);
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-family: 'Chonburi', serif;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        p {
+            font-family: 'Taviraj', sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* ทำให้รูปภาพเป็นวงกลม */
+            object-fit: cover; /* ปรับให้รูปภาพพอดีกับกรอบ */
+        }
+
+        button {
+            background-color: #9DB2BF;
+            color: #27374D;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
